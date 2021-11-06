@@ -1,0 +1,2 @@
+Bugs corrigés :
+- Bug de dupli avec les EC
