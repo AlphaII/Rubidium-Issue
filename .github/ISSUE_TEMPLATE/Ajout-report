@@ -1,0 +1,21 @@
+name: Une ajout ?
+description: Faites nous part d'un éventuel ajout d'une commande
+title: '[Ajout]: '
+labels:
+  - enhancement
+assignees:
+  - AlphaII
+body:
+  - type: input
+    id: pseudo
+    attributes:
+      label: Pseudo Discord
+    validations:
+      required: true
+  - type: textarea
+    id: ajout
+    attributes:
+      label: Quel serait votre ajout ?
+      description: Décrivez nous la commande ou la fonctionnalité que vous souhaiter ajouter
+    validations:
+      required: true
