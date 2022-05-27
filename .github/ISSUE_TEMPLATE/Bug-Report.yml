@@ -1,25 +1,36 @@
 name: Bug report
-description: Report un bug
+description: Signaler un bug
 title: '[Bug]: '
 labels:
   - Bug
 assignees:
   - AlphaII
 body:
-  - type: input
-    id: pseudo
-    attributes:
-      label: Pseudo Discord
-    validations:
-      required: true
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
-      label: Que s'est-il passé ?
-      description: Dites-nous ce qui est arrivé
+      label: 'Description du problème'
+      description: Décrivez le problème de la façon la plus détaillée possible
+      placeholder: Étapes pour reproduire le bug:
+        1. Aller dans le salon #salon
+        2. Faire la commande /command
+        3. ...
     validations:
       required: true
   - type: textarea
     id: what-should-happened
     attributes:
       label: 'Qu''aurait-il dû arriver ?'
+  - type: dropdown
+    id: os
+    attributes:
+      label: 'Système d'exploitation'
+      description: Sur quel(s) système(s) d'exploitation rencontrez-vous ce problème ?
+      Conseil: vous pouvez sélectionner plusieurs systèmes d'exploitation
+      options:
+        - Windows
+        - Android
+        - Linux
+        - macOS
+        - iOS
+        - Autre
