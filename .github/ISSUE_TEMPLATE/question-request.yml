@@ -2,16 +2,10 @@ name: Une question ?
 description: Faites nous part de votre question
 title: '[Question]: '
 labels:
-  - question
+  - Question
 assignees:
   - AlphaII
 body:
-  - type: input
-    id: pseudo
-    attributes:
-      label: Pseudo Discord
-    validations:
-      required: true
   - type: textarea
     id: question
     attributes:
