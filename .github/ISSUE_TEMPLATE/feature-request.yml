@@ -14,11 +14,11 @@ body:
   validations:
     required: true
 - type: textarea
-    id: solution
-    attributes:
-      label: Solution ou implémentation idéale
-      description: "Une description claire et concise de ce que vous voulez qu'il se passe"
-    validations:
+  id: solution
+  attributes:
+    label: Solution ou implémentation idéale
+    description: "Une description claire et concise de ce que vous voulez qu'il se passe"
+  validations:
       required: true
 - type: textarea
     id: additional-context
