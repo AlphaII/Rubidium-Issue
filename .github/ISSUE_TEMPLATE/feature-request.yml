@@ -8,11 +8,11 @@ assignees:
 body:
 - type: textarea
   id: description
-    attributes:
-      label: Fonctionnalité
-      description: "Une description claire et concise de la nature du problème ou de la fonctionnalité que vous souhaitez implémenter."
-    validations:
-      required: true
+  attributes:
+    label: Fonctionnalité
+    description: "Une description claire et concise de la nature du problème ou de la fonctionnalité que vous souhaitez implémenter."
+  validations:
+    required: true
 - type: textarea
     id: solution
     attributes:
