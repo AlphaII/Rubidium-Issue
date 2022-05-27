@@ -21,7 +21,7 @@ body:
   validations:
       required: true
 - type: textarea
-    id: additional-context
-    attributes:
-      label: Contexte supplémentaire
-      description: "Tout autre contexte, captures d'écran, fichiers ou dessins qui nous aideraient à comprendre votre demande de fonctionnalité."
+  id: additional-context
+  attributes:
+    label: Contexte supplémentaire
+    description: "Tout autre contexte, captures d'écran, fichiers ou dessins qui nous aideraient à comprendre votre demande de fonctionnalité."
