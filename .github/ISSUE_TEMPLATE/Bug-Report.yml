@@ -24,7 +24,7 @@ body:
   - type: dropdown
     id: os
     attributes:
-      label: 'Système d'exploitation'
+      label: "Système d'exploitation"
       description: Sur quel(s) système(s) d'exploitation rencontrez-vous ce problème ?
       Conseil: vous pouvez sélectionner plusieurs systèmes d'exploitation
       options:
