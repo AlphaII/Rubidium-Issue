@@ -18,6 +18,8 @@ body:
     id: what-should-happened
     attributes:
       label: 'Qu''aurait-il dû arriver ?'
+    validations:
+      required: true
   - type: dropdown
     id: os
     attributes:
