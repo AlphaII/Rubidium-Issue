@@ -25,8 +25,7 @@ body:
     id: os
     attributes:
       label: "Système d'exploitation"
-      description: Sur quel(s) système(s) d'exploitation rencontrez-vous ce problème ?
-      Conseil: vous pouvez sélectionner plusieurs systèmes d'exploitation
+      description: "Sur quel(s) système(s) d'exploitation rencontrez-vous ce problème ? (Vous pouvez sélectionner plusieurs systèmes d'exploitation)"
       options:
         - Windows
         - Android
