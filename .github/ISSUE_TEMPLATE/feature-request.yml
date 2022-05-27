@@ -1,0 +1,27 @@
+name: Demande de fonctionnalité
+description: "Demander une nouvelle fonctionnalité à implémenter"
+title: '[Ajout]: '
+labels:
+  - Amélioration
+assignees:
+  - AlphaII
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Fonctionnalité
+      description: Une description claire et concise de la fonctionnalité que vous souhaitez implémenter.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Solution ou implémentation idéale
+      description: "Une description claire et concise de ce que vous voulez qu'il se passe"
+    validations:
+      required: true
+   - type: textarea
+    id: additional-context
+    attributes:
+      label: Contexte supplémentaire
+      description: "Tout autre contexte, captures d'écran, fichiers ou dessins qui nous aideraient à comprendre votre demande de fonctionnalité."
