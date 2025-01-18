@@ -18,7 +18,8 @@ body:
     id: what-should-happened
     attributes:
       label: 'Qu''aurait-il dû arriver ?'
-      description: "Normalement, le bot devait... puis il était censé..."
+      description: Expliquer clairement la réponse que le bot devait donner.
+      placeholder: "Normalement, le bot devait... puis il était censé..."
     validations:
       required: true
   - type: dropdown
