@@ -11,10 +11,7 @@ body:
     attributes:
       label: 'Description du problème'
       description: Décrivez le problème de la façon la plus détaillée possible. Merci de veiller à ce que cette desciption soit claire, concise et complète
-      placeholder: 
-      1. Aller dans le salon #salon
-      2. Faire la commande /command
-      3. ...
+      placeholder: "1. Aller dans le salon #salon ; 2. Faire la commande /command ; 3. ..."
     validations:
       required: true
   - type: textarea
