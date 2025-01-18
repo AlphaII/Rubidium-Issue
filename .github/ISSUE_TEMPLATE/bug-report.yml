@@ -1,5 +1,5 @@
-name: Bug report
-description: Signaler un bug
+name: Signaler un bug
+description: Signaler une erreur ou une réponse innatendue de la poart du bot
 title: '[Bug]: '
 labels:
   - Bug
@@ -10,8 +10,11 @@ body:
     id: description
     attributes:
       label: 'Description du problème'
-      description: Décrivez le problème de la façon la plus détaillée possible
-      placeholder: "1. Aller dans le salon #salon 2. Faire la commande /command  3. ..."
+      description: Décrivez le problème de la façon la plus détaillée possible. Merci de veiller à ce que cette desciption soit claire, concise et complète
+      placeholder: |
+      1. Aller dans le salon #salon
+      2. Faire la commande /command  
+      3. ...
     validations:
       required: true
   - type: textarea
@@ -32,3 +35,10 @@ body:
         - macOS
         - iOS
         - Autre
+  - type: checkboxes
+    id: web
+    attributes:
+      label: Version web de Discord
+      description: Cochez cette case si vous utilisez Discord sur votre navigateur
+      options:
+        - label: J'utilise la version web de Discord
